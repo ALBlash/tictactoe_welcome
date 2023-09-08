@@ -1,0 +1,366 @@
+body {
+    background-color: #f2f2f2
+}
+
+/*Header*/
+
+.navbar {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-right: 0;
+    height: 60px;
+}
+
+
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    margin-top: -20px;
+
+}
+
+li {
+    display: flex;
+    font-weight: bold;
+    list-style: none;
+    font-family: sans-serif;
+    color: #2f2e2e;
+    text-decoration: none;
+}
+
+a {
+    color: #2f2e2e;
+    text-decoration: none;
+}
+
+/*small-profile-left-navbar */
+.img {
+
+    width: 50px;
+    border: 1px solid none;
+    border-radius: 50%;
+}
+
+
+#left {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    margin-left: 110px;
+    font-family: 'Delicious Handrawn', cursive;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px
+}
+
+.img-section {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 110px;
+}
+
+/*Game information*/
+.game-container {
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+
+#TicTacToe-img {
+    width: 30vw;
+    max-width: 400px;
+    border-radius: 30px;
+}
+
+#h2 {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.paragraph {
+    width: 600px;
+}
+
+.button-container {
+    display: flex;
+    gap: 50px;
+}
+
+input {
+    padding: 5px 40px;
+    border-radius: 30px;
+    border: 1px solid grey;
+    box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+#watch-project {
+    background-color: #22f9f9;
+}
+
+.p-bottom {
+    background-color: #2f2e2e;
+    color: #22f9f9;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #download-project {} */
+
+@media screen and (max-width: 1150px) {
+    body {
+        font-size: 14px;
+    }
+
+    .navbar {
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        height: 60px;
+    }
+
+
+    nav {
+        margin-right: 15px;
+    }
+
+    .sticky {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    ul {
+        display: flex;
+        gap: 30px;
+        margin-top: -20px;
+
+    }
+
+    li {
+        display: flex;
+        font-weight: bold;
+        list-style: none;
+        font-family: sans-serif;
+        color: #2f2e2e;
+        text-decoration: none;
+    }
+
+    a {
+        color: #2f2e2e;
+        text-decoration: none;
+    }
+
+    /*small-profile-left-navbar */
+    .img {
+
+        width: 50px;
+        border: 1px solid none;
+        border-radius: 50%;
+    }
+
+
+    #left {
+        position: absolute;
+        left: 0;
+        top: 5px;
+        margin-left: 20px;
+        font-family: 'Delicious Handrawn', cursive;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 10px
+    }
+
+    .img-section {
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        height: 110px;
+    }
+
+    /*Game information*/
+    .game-container {
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #TicTacToe-img {
+        width: 30vw;
+        border-radius: 30px;
+    }
+
+    .game-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #h2 {
+        font-size: 35px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+    .paragraph {
+        width: 600px;
+    }
+
+    .button-container {
+        display: flex;
+        gap: 50px;
+    }
+
+    input {
+        padding: 5px 40px;
+        border-radius: 30px;
+        border: 1px solid grey;
+        box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    #watch-project {
+        background-color: #22f9f9;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        font-size: 14px;
+    }
+
+    .navbar {
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        height: 60px;
+    }
+
+
+    nav {
+        margin-right: 15px;
+    }
+
+    .sticky {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    ul {
+        display: flex;
+        gap: 30px;
+        margin-top: -20px;
+
+    }
+
+    li {
+        display: flex;
+        font-weight: bold;
+        list-style: none;
+        font-family: sans-serif;
+        color: #2f2e2e;
+        text-decoration: none;
+    }
+
+    a {
+        color: #2f2e2e;
+        text-decoration: none;
+    }
+
+    /*small-profile-left-navbar */
+    .img {
+
+        width: 50px;
+        border: 1px solid none;
+        border-radius: 50%;
+    }
+
+
+    #left {
+        position: absolute;
+        left: 0;
+        top: 5px;
+        margin-left: 20px;
+        font-family: 'Delicious Handrawn', cursive;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 10px
+    }
+
+    .img-section {
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        height: 110px;
+    }
+
+    /*Game information*/
+    .game-container {
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #TicTacToe-img {
+        width: 200px;
+        border-radius: 30px;
+    }
+
+    .game-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #h2 {
+        font-size: 35px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+    .paragraph {
+        width: 300px;
+        text-align: center;
+    }
+
+    .button-container {
+        display: flex;
+        gap: 30px;
+    }
+
+    input {
+        padding: 5px 40px;
+        border-radius: 30px;
+        border: 1px solid grey;
+        box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    #watch-project {
+        background-color: #22f9f9;
+    }
+
+}
